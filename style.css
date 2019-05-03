@@ -4,15 +4,25 @@ body {
     font-size: 1.5em;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+}
+
+.how-to-play {
+    padding-left: 2em;
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-rows: 1fr [header] 1fr [canvas] 1fr [footer]
 }
 
 canvas {
+    grid-row: canvas;
     display: block;
     margin: 0 auto;
 }
 
 .header-info {
+    grid-row: header;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
@@ -22,7 +32,7 @@ canvas {
     margin: 0 auto;
 }
 
-.game-title {
+.hp-info {
     grid-column: 1;
     padding: 0.25em;
     text-align: left;
@@ -44,12 +54,8 @@ canvas {
     margin-right: auto;
 }
 
-.hidden {
-    display: none;
-    opacity: 0;
-}
-
 .map {
+    display: none;
     height: 640px;
     width: 640px;
     margin: 0 auto;
@@ -58,12 +64,28 @@ canvas {
     grid-template-columns: repeat(2, 1fr)
 }
 
+#help {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display:none;
+}
+
 .island-info {
     margin-bottom: 1em;
 }
 
 .island-table {
     padding: 4px;
+}
+
+.footer-container {
+    grid-row: footer;
+    margin: 0 auto;
+    width: 640px;
+    height: 40px;
 }
 
 
