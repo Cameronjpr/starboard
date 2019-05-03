@@ -5,9 +5,9 @@ A simple game about trading, sailing, and the distant past.
 In Starboard, you play as a merchant trading their way across the ancient Mediterranean. Your job is to sail between islands, buying and selling precious resources, and avoiding deadly storms. Try to amass as much gold as possible -- before your inevitable watery death. 
 
 # how to play - controls
-Use the arrow keys to control your ship. 
-Press H to bring up the help screen
-Press Q to dump your cargo into the sea
+* Use the arrow keys to control your ship. 
+* Press H to bring up the help screen
+* Press Q to dump your cargo into the sea
 
 # how to play - strategy
 Your Cargo and Gold are displayed at the top of the screen. 
@@ -21,6 +21,6 @@ Avoid storms, as they will do damage. Every time you hit one, you lose gold, hea
 
 
 # tips
-Jewellery is the most valuable resource in the game. You can make up to 50 Gold by trading it between islands.
-Storms can't pass over islands -- putting an island between you and the right-edge of the map will keep you safe from storms. 
-Sometimes you can pick up cargo that no islands wants to buy -- this is a known bug. Press Q to dump your cargo if this happens to you. 
+* Jewellery is the most valuable resource in the game. You can make up to 50 Gold by trading it between islands.
+* Storms can't pass over islands -- putting an island between you and the right-edge of the map will keep you safe from storms. 
+* Sometimes you can pick up cargo that no islands wants to buy -- this is a known bug. Press Q to dump your cargo if this happens to you. 
