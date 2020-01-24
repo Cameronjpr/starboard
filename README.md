@@ -1,5 +1,7 @@
 # starboard
-A simple game about trading, sailing, and the distant past.
+A simple game about trading, sailing, and the distant past. A playable (if shallow) game lacking polish. 
+
+https://www.cameron-robson.com/starboard
 
 # background
 In Starboard, you play as a merchant trading their way across the ancient Mediterranean. Your job is to sail between islands, buying and selling precious resources, and avoiding deadly storms. Try to amass as much gold as possible -- before your inevitable watery death. 
